@@ -1,3 +1,2 @@
 # aayushdemo
-my first git repo
-hello
+THIS IS AAYUSH'S GITHUB FIRST REPO
