@@ -1,7 +1,26 @@
 
 #include<iostream>
 #include<math.h>
-
+//Return the money enter by the user in 100,50,20,1 rupees note 
+/*int main(){
+   int n;
+   cout<<"enter the money";
+   cin>>n;
+   int p,t,u,m;
+   p=n/100;
+   cout<<"the 100 rupees notes are\n"<<p<<endl;
+   int q,o;
+   q=n%100;
+     
+      o=q/50;
+      cout<<"the number of 50 rupees notes are\n"<<o<<endl;
+      u=q%50;
+     
+         t=u/20;
+         cout<<"the number of 20 rupees note are \n"<<t<<endl;
+         m=u%20;
+            cout<<"the number of 1 rupees notes required are\n"<<m<<endl;
+         }*/
 
 
 
