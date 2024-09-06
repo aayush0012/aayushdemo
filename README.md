@@ -1,2 +1,0 @@
-# aayushdemo
-THIS IS AAYUSH'S  FIRST GITHUB REPO
