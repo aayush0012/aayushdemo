@@ -1,5 +1,6 @@
 
 #include<iostream>
+using namespace std;
 #include<math.h>
 //Return the money enter by the user in 100,50,20,1 rupees note 
 /*int main(){
