@@ -2,6 +2,26 @@
 #include<iostream>
 using namespace std;
 #include<math.h>
+//TELLS THE NO OF 1 PRESENT IN THE BINARY FORM OF THE NUMBER
+int set(int a){
+    int t=0;
+    int p;
+    if(a==0){
+     cout<<"no 1's are there"<<endl;
+    }
+    for(int j=a; j>0 ;){
+            p=j%2;
+            if(p==1){
+                t++;
+            }
+            j=j/2;
+        }
+    cout<<"the no of 1's are"<<t<<endl;
+}
+int main(){
+    int m= set(12);
+    return m;
+}
 //Return the money enter by the user in 100,50,20,1 rupees note 
 /*int main(){
    int n;
@@ -21,7 +41,7 @@ using namespace std;
          cout<<"the number of 20 rupees note are \n"<<t<<endl;
          m=u%20;
             cout<<"the number of 1 rupees notes required are\n"<<m<<endl;
-         }*/
+         }
 
 
 
