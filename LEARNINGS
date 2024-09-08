@@ -1,0 +1,99 @@
+
+#include<iostream>
+using namespace std;
+#include<math.h>
+//TELLS THE NO OF 1 PRESENT IN THE BINARY FORM OF THE NUMBER
+int set(int a){
+    int t=0;
+    int p;
+    if(a==0){
+     cout<<"no 1's are there"<<endl;
+    }
+    for(int j=a; j>0 ;){
+            p=j%2;
+            if(p==1){
+                t++;
+            }
+            j=j/2;
+        }
+    cout<<"the no of 1's are"<<t<<endl;
+}
+int main(){
+    int m= set(12);
+    return m;
+}
+//Return the money enter by the user in 100,50,20,1 rupees note 
+/*int main(){
+   int n;
+   cout<<"enter the money";
+   cin>>n;
+   int p,t,u,m;
+   p=n/100;
+   cout<<"the 100 rupees notes are\n"<<p<<endl;
+   int q,o;
+   q=n%100;
+     
+      o=q/50;
+      cout<<"the number of 50 rupees notes are\n"<<o<<endl;
+      u=q%50;
+     
+         t=u/20;
+         cout<<"the number of 20 rupees note are \n"<<t<<endl;
+         m=u%20;
+            cout<<"the number of 1 rupees notes required are\n"<<m<<endl;
+         }
+
+
+
+//REVERSE INTEGER
+/* 
+int main(){
+    int n;
+    cout<<"enter n";
+     cin>>n;
+    int rem;
+    int sum =0;
+     while(n!=0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+        }
+    
+    cout<<sum<<endl;
+ }*/
+//POWER OF 2 
+ /*int  main(){
+    int n;
+     std::cout<<"enter the value of n";
+    std::cin>>n;
+    int i=0;
+    
+    while(i<=n){
+        int val= pow(2,i);
+    if(val==n){
+        std::cout<<"true";
+    }
+        i++;
+    
+    }
+}*/
+//give an integer n return the difference bw the product and the sum 
+int main(){
+    int n;
+    cout<<"enter the value of n";
+    cin>>n;
+    
+    int sum=0;
+    int k=0;
+    while(n!=0){
+    if (n&1){
+        sum++;
+    }
+    n=n>>1;
+    
+    }
+    cout<<sum;
+
+    }
+
+
