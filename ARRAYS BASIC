@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+//FUNCTION TO DISPLAY AN ARRAY
+/*void array(int a[], int number){
+    for(int i=0;i<=number;i++){
+            cout<<a[i]<<" ";
+
+    }
+}
+int main(){
+    int a[]={1,3,4,56,6,7,8};
+    array(a,3);
+}
+*/
+//BASIC LINEAR SEARCH
+/*
+int main(){
+    int  p=0;
+    int arr[5]={1,2,3,4,1};
+    for(int i=0;i<=5;i++){
+        if (arr[i]==1){
+            p++;
+        }
+    }
+    cout<<"the number of times 1 appear is"<<p<<endl;
+}
+*/
+//REVERSE AN ARRAY
+
+void array(int a[],int number){
+    int j[number];
+for(int i=number-1 ;i>=0;i--){
+    j[number-1-i]=a[i];
+    cout<<j[number-1-i]<<" ";
+}
+}
+int main(){
+    int arr[4]={1,2,3,4};
+    array(arr,4);
+
+}
+/*
+int main(){
+    int a[4]={1,2,3,4,};
+    int j[4];
+    for(int i=3;i>=0;i--){
+        j[3-i]=a[i];
+        cout<<j[3-i]<<" ";
+    }
+
+}
+*/
