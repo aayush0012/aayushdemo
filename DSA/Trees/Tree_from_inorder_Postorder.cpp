@@ -10,7 +10,7 @@ class Solution {
       if(index<0|| start>end){
           return NULL ;
       }
-     int element =preorder[index--]; 
+     int element =postorder[index--]; 
      Node*root= new Node(element); 
      int pos = posi(inorder,element,mp); 
      root->right= solve(inorder,postorder,index, pos+1, end,mp ) ;
