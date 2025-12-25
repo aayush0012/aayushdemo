@@ -7,7 +7,7 @@ class Solution {
   } 
   Node* solve(vector<int> &inorder, vector<int> &postorder, int &index, int start,int end,map<int,int> &mp){
       //base case 
-      if(index<0|| start>end){
+      if(index<0|| start>=end){
           return NULL ;
       }
      int element =postorder[index--]; 
@@ -21,7 +21,7 @@ class Solution {
         // code here
         int index= postorder.size()-1 ;
         int start= 0; 
-        int end= inorder.size()-1; 
+        int end= inorder.size(); 
       
         map<int,int>mp; 
         for(int i =0 ;i<inorder.size(); i++){ 
