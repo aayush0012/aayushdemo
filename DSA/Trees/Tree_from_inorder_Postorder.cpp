@@ -21,7 +21,7 @@ class Solution {
         // code here
         int index= postorder.size()-1 ;
         int start= 0; 
-        int end= inorder.size(); 
+        int end= inorder.size()-1; 
       
         map<int,int>mp; 
         for(int i =0 ;i<inorder.size(); i++){ 
